@@ -2,6 +2,8 @@
 
 A lightweight **command-line task management tool** written in Go that lets you add, update, delete, and mark tasks as in-progress or done. Tasks are stored in a local `tasks.json` file for persistence.
 
+> 📌 This project is inspired by the [roadmap.sh Task Tracker](https://roadmap.sh/projects/task-tracker) challenge.
+
 ---
 
 ## 🚀 Features
@@ -31,6 +33,8 @@ A lightweight **command-line task management tool** written in Go that lets you 
     ```bash
     ./task-cli <command> [arguments]
     ```
+   
+---
    
 ## 📋 Usage
 
@@ -78,6 +82,8 @@ Task marked as done (ID: 1)
 Task deleted successfully (ID: 2)
 ```
 
+---
+
 ## 🛠 How It Works
 
 ### Data Storage
@@ -100,6 +106,8 @@ Example structure:
 - `todo`: Task is pending. **(default)**
 - `in-progress`: Task is currently being worked on.
 - `done`: Task has been completed.
+
+---
 
 ## 📄 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details
